@@ -1,11 +1,11 @@
 site_name: Veille Cyber RSSI – Département du Tarn
 theme:
   name: material
+
+plugins:
+  - search
+  - include-dir-to-nav        # ← le plugin
+
 nav:
   - Accueil: index.md
   - Veille: !include_dir_list_folded veille
-markdown_extensions:
-  - tables
-plugins:
-    - search
-    - awesome-pages
