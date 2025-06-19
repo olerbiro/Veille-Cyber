@@ -1,0 +1,104 @@
+{
+  "vulns": [
+    {
+      "cve": "CVE-2023-0386",
+      "vendor": "Linux",
+      "score": ""
+    },
+    {
+      "cve": "CVE-2023-33538",
+      "vendor": "TP-Link",
+      "score": ""
+    },
+    {
+      "cve": "CVE-2025-43200",
+      "vendor": "Apple",
+      "score": ""
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Google (13 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0511/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (13 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0509/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Splunk (13 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0508/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits IBM (13 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0512/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (13 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0510/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Tenable Nessus Agent (13 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0507/"
+    },
+    {
+      "title": "Vulnérabilité dans Spring Framework (13 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0506/"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2025-ACT-025 (16 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2025-ACT-025/"
+    },
+    {
+      "title": "Vulnérabilité dans PostgreSQL JDBC (16 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0514/"
+    },
+    {
+      "title": "Vulnérabilité dans Grafana (16 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0515/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge (16 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0513/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache Tomcat (17 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0516/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Veeam (18 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0517/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Moodle (18 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0519/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Synacor Zimbra Collaboration (18 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0521/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Atlassian (18 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0520/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Google Chrome (18 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0518/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Server (19 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0525/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans VMware Tanzu (19 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0524/"
+    },
+    {
+      "title": "Vulnérabilité dans Cisco Meraki MX (19 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0523/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans ClamAV (19 juin 2025)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0522/"
+    }
+  ],
+  "threats": []
+}
