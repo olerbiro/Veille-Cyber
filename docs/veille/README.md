@@ -1,3 +1,2 @@
-# Veille semaine 25
-
-[Acceder au rapport](2025-W25.md)
+"## Index des rapports de veille`n`nUtilisez le menu de gauche pour accéder à la semaine courante." |
+    Set-Content docs/veille/README.md -Encoding UTF8

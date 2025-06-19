@@ -8,17 +8,16 @@ import json, datetime, pathlib
 from jinja2 import Template
 
 year, week = datetime.date.today().isocalendar()[:2]
-data_file = pathlib.Path(f"data_{year}_{week}.json") 
-if not data_file.exists():
-    raise SystemExit(f"Fichier {data_file} introuvable. Lancez collect_feeds.py d'abord.")
 
-data = json.loads(data_file.read_text())
-tmpl = Template(pathlib.Path("template.md").read_text(), autoescape=False)
-content = tmpl.render(week=week, year=year, **data)
+template_text = pathlib.Path("template.md").read_text(encoding="utf-8")  # ← préciser l'encodage
+tmpl = Template(template_text, autoescape=False)
+
+data = json.loads(pathlib.Path(f"data_{year}_{week}.json").read_text(encoding="utf-8"))
+out_md = tmpl.render(week=week, year=year, **data)
 
 dest = pathlib.Path(f"docs/veille/{year}-W{week:02}.md")
 dest.parent.mkdir(parents=True, exist_ok=True)
-dest.write_text(content, encoding="utf-8")
+dest.write_text(out_md, encoding="utf-8")
 
 # README de la section veille (pointe vers la semaine courante)
 readme = pathlib.Path("docs/veille/README.md")

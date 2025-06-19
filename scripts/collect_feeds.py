@@ -95,5 +95,5 @@ threats = get_opencti_reports()         # rapports internes
 
 # Sauvegarde JSON
 out = pathlib.Path(f"data_{YEAR}_{WEEK}.json")
-out.write_text(json.dumps({"vulns": vulns, "threats": threats}, indent=2, ensure_ascii=False))
+out.write_text(json.dumps({"vulns": vulns, "threats": threats}, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"[OK] {out} écrit ({out.stat().st_size/1024:.1f} kB)")

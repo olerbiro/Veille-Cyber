@@ -4,8 +4,8 @@ theme:
 
 plugins:
   - search
-  - include-dir-to-nav        # ← le plugin
+  - include_dir_to_nav        # ← le plugin
 
 nav:
   - Accueil: index.md
-  - Veille: !include_dir_list_folded veille
+  - Veille: veille/
